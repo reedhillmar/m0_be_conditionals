@@ -100,15 +100,16 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts "Does the dog love playing and treats?", loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts "Does the dog love playing and going to the dog park?", loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts "Does the dog love playing or going to the dog park?", loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
+puts "Is the dog a puppy that loves to play?", loves_to_play && age <= 2
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: My final line of code evaluated wheter the dog loves to play and is 2 years old or younger, the age I decided was the upper limit of puppy age. This will return as true.
