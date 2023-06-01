@@ -61,21 +61,24 @@ puts "Are there 21 or fewer students?", number_students <= 21
 
 puts 4 < 9
 #YOU DO: Explain.
+# This will evaluate if 4 is less than 9. It is, so it will return as true.
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+# This will evaluate if the number books (the variable) is less than 4. The number of books is 3, so it will return as false.
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# This will evaluate if the number of friends is greater than the number of siblings. Since there are 6 friends and two siblings, the result will be true.
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
-
+# This will evaluate if the number of attendees is different from the number of meals. There are 9 attendees and 8 meals, so the result will be true with one hungry attendee. How hard is it to RSVP?
 
 #-------------------
 # PART 3: Logical Operators
