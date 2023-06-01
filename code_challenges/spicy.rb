@@ -1,4 +1,4 @@
-int = 8
+int = 15
 
 if int % 3 == 0 && int % 5 == 0
     puts "FizzBuzz"
@@ -15,3 +15,15 @@ puts "The remainder of 8/3 is #{8 % 3}"
 # If there is no remainder, it gives 0
 puts "The remainder of 9/3 is #{9 % 3}"
 # It follows that for any modulo result that is 0 the numerator is divisible by the denominator
+
+number = 5
+
+if number % 3 == 0 && number % 7 == 0
+    puts "FizzBuzz"
+elsif number % 3 == 0
+    puts 'Fizz'
+elsif number % 7 == 0
+    puts 'Buzz'
+else
+    puts number
+end
